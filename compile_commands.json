@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/mark/data/CodeProjects/cmake-example/build/modules/bar",
+  "command": "/usr/bin/cc  -I/home/mark/data/CodeProjects/cmake-example/modules/bar/public-headers  -o CMakeFiles/bar.dir/bar.c.o -c /home/mark/data/CodeProjects/cmake-example/modules/bar/bar.c",
+  "file": "/home/mark/data/CodeProjects/cmake-example/modules/bar/bar.c"
+},
+{
+  "directory": "/home/mark/data/CodeProjects/cmake-example/build/modules/foo",
+  "command": "/usr/bin/cc  -I/home/mark/data/CodeProjects/cmake-example/modules/foo/public-headers -I/home/mark/data/CodeProjects/cmake-example/modules/bar/public-headers  -o CMakeFiles/foo.dir/foo.c.o -c /home/mark/data/CodeProjects/cmake-example/modules/foo/foo.c",
+  "file": "/home/mark/data/CodeProjects/cmake-example/modules/foo/foo.c"
+},
+{
+  "directory": "/home/mark/data/CodeProjects/cmake-example/build/modules/foo",
+  "command": "/usr/bin/cc  -I/home/mark/data/CodeProjects/cmake-example/modules/foo/public-headers -I/home/mark/data/CodeProjects/cmake-example/modules/bar/public-headers  -o CMakeFiles/foo.dir/baz.c.o -c /home/mark/data/CodeProjects/cmake-example/modules/foo/baz.c",
+  "file": "/home/mark/data/CodeProjects/cmake-example/modules/foo/baz.c"
+},
+{
+  "directory": "/home/mark/data/CodeProjects/cmake-example/build/modules/main",
+  "command": "/usr/bin/cc  -I/home/mark/data/CodeProjects/cmake-example/modules/foo/public-headers -I/home/mark/data/CodeProjects/cmake-example/modules/bar/public-headers  -o CMakeFiles/main.dir/main.c.o -c /home/mark/data/CodeProjects/cmake-example/modules/main/main.c",
+  "file": "/home/mark/data/CodeProjects/cmake-example/modules/main/main.c"
+}
+]
